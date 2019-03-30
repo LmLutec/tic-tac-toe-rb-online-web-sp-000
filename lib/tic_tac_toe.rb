@@ -70,11 +70,9 @@ WIN_COMBINATIONS = [
     
   def won?(board)
       WIN_COMBINATIONS.detect do |combo|
-         if board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]] && position_taken?(board, combo[0])
+          board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]] && position_taken?(board, combo[0])
            combo
-         else
-           false 
-         end 
+  
         end 
   end 
   
