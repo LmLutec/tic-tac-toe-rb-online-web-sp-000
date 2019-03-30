@@ -94,7 +94,7 @@ WIN_COMBINATIONS = [
     if !won?(board)
         nil 
       else
-      current_player(board)
+      board[won?(board)[0][0]]
     end 
   end   
 
