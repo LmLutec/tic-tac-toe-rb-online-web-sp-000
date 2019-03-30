@@ -72,7 +72,6 @@ WIN_COMBINATIONS = [
       WIN_COMBINATIONS.detect do |combo|
          if board[combo[0]] == board[combo[1]] && board[combo[1]] == board[combo[2]] && position_taken?(board, combo[0])
            combo
-           binding.pry 
          else
            false 
          end 
