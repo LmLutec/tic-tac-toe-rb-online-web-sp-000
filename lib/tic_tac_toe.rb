@@ -104,7 +104,7 @@ WIN_COMBINATIONS = [
        end 
       
        if won?(board)
-         puts "Congratulations #{winner} !"
+         puts "Congratulations #{} !"
        else 
             puts "Cat's Game!"
             
